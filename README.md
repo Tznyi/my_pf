@@ -1,8 +1,9 @@
 # Nyi Lin Naing – portfolio
 
-Personal portfolio built with React and Vite, live at https://tznyi.github.io/my_pf/
+Personal portfolio built with React, Three.js (react-three-fiber) and Vite, live at https://tznyi.github.io/my_pf/
 
-The centrepiece is an interactive few-shot learning lab (`src/components/FewShotLab.jsx`): a Prototypical Network running in the browser. Visitors label examples and watch every other point get classified by its distance to each group's prototype, the method behind my MSc dissertation.
+- `src/components/EmbeddingSpace.jsx`: the 3D hero. Every project is a point in an embedding space, grouped into clusters with a prototype at each centre.
+- `src/components/FewShotLab3D.jsx`: a Prototypical Network running in the browser in 3D. Visitors label points and watch every other point get classified by its distance to each group's prototype, the method behind my MSc dissertation.
 
 ## Edit the content
 
